@@ -147,6 +147,30 @@ nav {
     text-align: center;
 }
 
+/* FIFTH SECTION */
+
+.section5 .container {
+    padding: 3.125rem 2.1875rem 3.75rem 2.1875rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    gap: 1.875rem;
+    
+}
+
+.section5 .left-col {
+    height: 34.375rem;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.section5 .right-col {
+    height: 25rem;
+    border: 1px solid black;
+    width: 100%;
+}
+
 
 
 
@@ -156,7 +180,7 @@ nav {
 
   @media only screen and (min-width: 768px) {
 
-    /* SEXTION 1 */
+    /* SECTION 1 */
 
     .section1 {
         padding-left: 1.875rem;
@@ -202,6 +226,19 @@ nav {
         width: calc((100% / 2) - 1.875rem); /*width: (100% / n) - (((n -1) / n) * g); n = columns per row, g = gap */;
     }
 
+    /* SECTION 5 */
+
+    .section5 .container {
+        flex-direction: row;
+        align-items: baseline;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .section5 .container .left-col {
+        width: 150%;
+    }
+
 
 
   }
@@ -232,8 +269,21 @@ nav {
 
     /* SECTION 4 */
 
+    .section4 .container {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+
     .section4 .container .card {
         width: calc((100% / 3) - (2 / 3) * 1.875rem); /*width: (100% / n) - (((n -1) / n) * g); n = columns per row, g = gap */
+    }
+
+    /* SECTION 5 */
+
+
+    .section5 .container {
+        max-width: 992px;
+        margin: 0 auto;
     }
 
 

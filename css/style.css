@@ -34,8 +34,6 @@
 
 .card {
     height: 22rem;
-    width: 22rem;
-   
 }
 
 
@@ -58,13 +56,12 @@ nav {
 }
 
 .section1 .container {
-    padding-top: 3.125rem;
+    padding: 3.125rem 2.1875rem 5rem 2.1875rem;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center; 
     width: 100%;
-    padding-bottom: 80px;
 }
 
 .section1-top, .section1-bottom {
@@ -72,6 +69,7 @@ nav {
     flex-direction: column;
     gap: 1.25rem;
     margin-bottom: 1.25rem;
+    width: 100%;
     
 }
 
@@ -82,25 +80,25 @@ nav {
 }
 
 .section2 .container {
+    padding: 3.125rem 2.1875rem 5rem 2.1875rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+    align-items: center; 
     width: 100%;
-    gap: 3.125rem;
-    padding-top: 4.375rem;
-    padding-bottom: 3.75rem;
+    gap: 2.5rem;
 }
 
 .section2 .container .section2-left {
     height: 990px;
     background-color: white;
-    width: 22rem;
+    width: 100%;  
 }
 
 .section2 .container .section2-right {
     height: 870px;
     background-color: white;
-    width: 22rem;
+    width: 100%;  
 }
 
 
@@ -110,17 +108,23 @@ nav {
 
 /* media query tablet */
   @media only screen and (min-width: 768px) {
+
+    /* section 1 */
+
+    .section1 {
+        padding-left: 1.875rem;
+        padding-right: 1.875rem;
+    }
     
-    .section1-container {
+    .section1 .container {
         flex-direction: column; /* cards need to be in row in table view with wrap */
         padding-top: 3.125rem;
-        padding-bottom: 100px;
+        padding-bottom: 6.25rem;
         width: 100%;
     }
 
     .section1-top, .section1-bottom {
         flex-direction: row;
-        width: 100%;
     }
 
     .section1-top > div:first-child {
@@ -130,7 +134,13 @@ nav {
     .section1-top > div:last-child {
         width: calc((100% / 3) - (2 / 3) * 1.25rem); /*width: (100% / n) - (((n -1) / n) * g); n = columns per row, g = gap */
     }
-    
+
+    .section1-bottom .card {
+        width:  calc((100% / 3) - (2 / 3) * 1.25rem);
+    }
+
+    /* section 2 */
+
 
   }
 

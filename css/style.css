@@ -14,6 +14,7 @@
     --grey: #5a6e7f;
     --light-blue: #b5ddff;
     --violet: #9792e4;
+    --black: #333333;
   }
 
 .white {
@@ -194,6 +195,30 @@ nav {
 }
 
 
+/* FOOTER */
+
+footer {
+    background-color: #333333;
+    padding: 3.125rem 2.1875rem 3.75rem 2.1875rem;
+    text-align: center; 
+}
+
+footer .container {
+    text-align: center; 
+    border: solid 1px white; 
+}
+
+footer .container .top-row {
+    margin-bottom: 4.375rem;
+    border: solid 1px white; 
+}
+
+footer .container .bottom-row {
+    
+    border: solid 1px white;  
+}
+
+
 
 
 /************ MEDIA QUERIES *************/
@@ -261,6 +286,13 @@ nav {
         width: 150%;
     }
 
+    /* SECTION 6 */
+
+    .section6 .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }  
+
 
 
   }
@@ -307,6 +339,14 @@ nav {
         max-width: 992px;
         margin: 0 auto;
     }
+
+    /* SECTION 6 */
+
+    .section6 .container {
+        max-width: 992px;
+        margin: 0 auto;
+    }  
+    
 
 
   }

@@ -172,6 +172,28 @@ nav {
 }
 
 
+/* SIXTH SECTION */
+
+.section6 {
+    background-color: var(--violet);
+}
+
+.section6 .container {
+    padding: 3.125rem 2.1875rem 3.75rem 2.1875rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    gap: 1.875rem;  
+}
+
+.section6 .container .card {
+    height: 31.25rem;
+    border: 1px solid white;
+    width: 100%;
+}
+
+
 
 
 /************ MEDIA QUERIES *************/

@@ -143,6 +143,10 @@ nav {
     
 }
 
+.section4 h2 {
+    text-align: center;
+}
+
 
 
 
@@ -152,7 +156,7 @@ nav {
 
   @media only screen and (min-width: 768px) {
 
-    /* section 1 */
+    /* SEXTION 1 */
 
     .section1 {
         padding-left: 1.875rem;
@@ -186,6 +190,19 @@ nav {
 
     /* SECTION 3 */
 
+    /* SECTION 4 */
+    .section4 .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+
+    .section4 .container .card {
+        width: calc((100% / 2) - 1.875rem); /*width: (100% / n) - (((n -1) / n) * g); n = columns per row, g = gap */;
+    }
+
+
 
   }
 
@@ -213,6 +230,11 @@ nav {
         margin: 0 auto;
     }
 
+    /* SECTION 4 */
+
+    .section4 .container .card {
+        width: calc((100% / 3) - (2 / 3) * 1.875rem); /*width: (100% / n) - (((n -1) / n) * g); n = columns per row, g = gap */
+    }
 
 
   }

@@ -293,6 +293,13 @@ footer .container .bottom-row {
         margin: 0 auto;
     }  
 
+    /* FOOTER */
+
+    footer .container {
+        max-width: 29rem;  
+        margin: 0 auto;
+    }
+
 
 
   }
@@ -346,7 +353,7 @@ footer .container .bottom-row {
         max-width: 992px;
         margin: 0 auto;
     }  
-    
 
+    /* FOOTER */
 
   }

@@ -32,8 +32,12 @@
 
 /* DEBUG  */
 
-.card {
+.section1 .card {
     height: 22rem;
+}
+
+.section3 .card {
+    height: 31.25rem;
 }
 
 
@@ -51,7 +55,7 @@ nav {
 
 /* FIRST SECTION */
 
-.card {
+.section1 .card {
     background-color: var(--light-blue);
 }
 
@@ -99,6 +103,23 @@ nav {
     height: 870px;
     background-color: white;
     width: 100%;  
+}
+
+/* THIRD SECTION */
+
+.section3 .card {
+    background-color: var(--violet);
+    width: 100%;
+}
+
+.section3 .container {
+    padding: 3.125rem 2.1875rem 5rem 2.1875rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    gap: 1.875rem;
+    
 }
 
 

@@ -4,3 +4,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* TYPO */
+
+/* COMMON */
+
+:root {
+    --blue: #0084fd;
+  }
+
+.white {
+    color: white;
+}
+/* HEADER */
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1.5rem 3rem 3rem 3rem;
+    background-color: var(--blue);
+}
+
+
+/* MEDIA QUERIES */
+
+/* media query tablet */
+  @media only screen and (min-width: 768px) {
+    /*your CSS Rules*/     
+  }
+
+  /* media query desktop */
+  @media only screen and (min-width: 992px) {
+    /*your CSS Rules*/     
+  }

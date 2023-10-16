@@ -32,7 +32,7 @@
 
 /* DEBUG  */
 
-.section1 .card {
+.section1 .card, .section4 .card {
     height: 22rem;
 }
 
@@ -114,6 +114,27 @@ nav {
 
 .section3 .container {
     padding: 3.125rem 2.1875rem 7.1875rem 2.1875rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    gap: 1.875rem;
+    
+}
+
+/* FOURTH SECTION */
+
+.section4 {
+    background-color: var(--violet) ;
+}
+
+.section4 .card {
+    background-color: white;
+    width: 100%;
+}
+
+.section4 .container {
+    padding: 3.125rem 2.1875rem 3.75rem 2.1875rem;
     display: flex;
     flex-direction: column;
     text-align: center;

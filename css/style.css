@@ -63,12 +63,17 @@ nav {
     align-items: center; 
     padding-bottom: 80px;
     gap: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    
 }
 
 .section1-top, .section1-bottom {
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
+    
 }
 
 
@@ -81,11 +86,20 @@ nav {
         flex-direction: column; /* cards need to be in row in table view with wrap */
         padding-top: 3.125rem;
         padding-bottom: 100px;
+        width: 100%;
     }
 
     .section1-top, .section1-bottom {
         flex-direction: row;
-        max-width: 768px;
+        width: 100%;
+    }
+
+    .section1-top > div:first-child {
+         flex-grow: 1;
+    }
+
+    .section1-top > div:last-child {
+        width: calc((100% / 3) - (2 / 3) * 1.25rem); /*width: (100% / n) - (((n -1) / n) * g); n = columns per row, g = gap */
     }
     
 
@@ -93,5 +107,8 @@ nav {
 
   /* media query desktop */
   @media only screen and (min-width: 992px) {
-    /*your CSS Rules*/     
+    .section1-top, .section1-bottom {
+        flex-direction: row;
+        max-width: 992px;
+    }    
   }

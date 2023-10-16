@@ -104,9 +104,10 @@ nav {
 
 
 
-/* MEDIA QUERIES */
+/************ MEDIA QUERIES *************/
 
 /* media query tablet */
+
   @media only screen and (min-width: 768px) {
 
     /* section 1 */
@@ -146,8 +147,22 @@ nav {
 
   /* media query desktop */
   @media only screen and (min-width: 992px) {
-    .section1-top, .section1-bottom {
-        flex-direction: row;
+
+    /* SECTION 1 */
+    .section1 .container {
         max-width: 992px;
+        margin: 0 auto;
     }    
+
+    /* SECTION 2 */
+    .section2 .container {
+        flex-direction: row;
+        align-items: end;
+        margin: 0 auto;
+        max-width: 870px;
+    }
+
+
+
+
   }

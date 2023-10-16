@@ -36,9 +36,6 @@
    
 }
 
-.section1-container > div:first-child {
-    height: 44rem;
-}
 
 
 
@@ -59,11 +56,17 @@ nav {
 }
 
 .section1-container {
+    padding-top: 3.125rem;
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+}
+
+.section1-top, .section1-bottom {
+    display: flex;
+    flex-direction: column;
     gap: 1.25rem;
-   flex-direction: column; 
-   align-items: center; /* cards need to be in column in mobile view */
-   padding-top: 3.125rem;
 }
 
 
@@ -71,7 +74,16 @@ nav {
 
 /* media query tablet */
   @media only screen and (min-width: 768px) {
-    /*your CSS Rules*/     
+    
+    .section1-container {
+        gap: 1.25rem;
+        flex-direction: row; /* cards need to be in row in table view with wrap */
+        flex-wrap: wrap;
+        justify-content: center; 
+        padding-top: 3.125rem;
+    }
+    
+
   }
 
   /* media query desktop */

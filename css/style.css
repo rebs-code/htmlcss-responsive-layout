@@ -44,6 +44,10 @@ p {
     font-size: 24px;
 }
 
+.size-30px {
+    font-size: 30px;
+}
+
 .size-34px {
     font-size: 34px;
 }
@@ -343,7 +347,7 @@ nav i {
 /* FIFTH SECTION */
 
 .section5 .container {
-    padding: 3.125rem 2.1875rem 3.75rem 2.1875rem;
+    padding: 3.125rem 2.1875rem 5rem 2.1875rem;
     display: flex;
     flex-direction: column;
     text-align: center;

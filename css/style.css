@@ -8,16 +8,40 @@
 /* TYPO */
 
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 p {
     line-height: 2rem;
-    font-size: 18px;
 }
+
 
 .align-left {
     text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.size-16px {
+    font-size: 16px;
+}
+
+.size-18px {
+    font-size: 18px;
+}
+
+.size-24px {
+    font-size: 24px;
+}
+
+.size-80px {
+    font-size: 80px;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 /* VARIABLES     */
@@ -62,13 +86,7 @@ button {
     border: none;
 }
 
-.size-18px {
-    font-size: 18px;
-}
 
-.bold {
-    font-weight: 700;
-}
 
 img {
     display: block;
@@ -115,16 +133,22 @@ nav i {
     padding: 2.5rem 2.1875rem 0 2.1875rem;
 }
 
-
+.section1-top > .card:first-child p {
+    margin-bottom: 2.5rem;
+}
 
 .section1 .card h2 {
     color: var(--blue);
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.8125rem;
 }
 
 .section1 .card p {
     color: var(--grey);
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.1875rem;
+}
+
+.section1 .card > i:not(button) {  /* apply margin bottom to all i that are not children of button */
+    margin-bottom: 2.1875rem;
 }
 
 .section1 .card button {

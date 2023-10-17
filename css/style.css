@@ -36,12 +36,20 @@ p {
     font-size: 24px;
 }
 
+.size-34px {
+    font-size: 34px;
+}
+
 .size-80px {
     font-size: 80px;
 }
 
 .bold {
     font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
 }
 
 /* VARIABLES     */
@@ -80,16 +88,19 @@ p {
     background-color: var(--blue);
 }
 
+.bg-white {
+    background-color: white;
+}
+
 button {
     border-radius: 25px;
     padding: .9rem 3.125rem .9rem 3.125rem;
     border: none;
 }
 
-
-
 img {
     display: block;
+    width: 100%;
 }
 
 
@@ -156,7 +167,6 @@ nav i {
 }
 
 .section1 .card img {
-    width: 100%;
     margin: 0 auto;
 }
 
@@ -175,35 +185,58 @@ nav i {
     gap: 1.25rem;
     margin-bottom: 1.25rem;
     width: 100%;
-    
 }
 
 /* SECOND SECTION */
 
-.section2 {
-    background-color: var(--violet);
-}
 
 .section2 .container {
     padding: 3.125rem 2.1875rem 5rem 2.1875rem;
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center; 
     width: 100%;
     gap: 2.5rem;
 }
 
+/* second section left */
+
 .section2 .container .section2-left {
-    height: 990px;
-    background-color: white;
     width: 100%;  
 }
 
+.section2 .container .section2-left img {
+    margin-bottom: 5rem;
+}
+
+.section2 .container .section2-left h2 {
+    margin-bottom: 4.0625rem;
+}
+
+.section2 .container .section2-left p {
+    margin-bottom: 2.5rem;
+}
+
+/* second section right */
+
 .section2 .container .section2-right {
-    height: 870px;
-    background-color: white;
-    width: 100%;  
+    width: 100%; 
+    border-radius: 3rem; 
+    padding: 1.875rem 1.25rem 0 1.25rem;
+}
+
+.section2 .container .section2-right img, .section2 .container .section2-right h2, .section2 .container .section2-right p {
+    margin-bottom: 1.875rem;
+}
+
+.section2 .container .section2-right div {
+    margin-bottom: 1.875rem;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    width: 3.4375rem;
+    height: 3.4375rem; 
+    line-height: 55px;
 }
 
 /* THIRD SECTION */

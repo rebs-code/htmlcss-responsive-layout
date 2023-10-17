@@ -50,7 +50,7 @@ nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 1.5rem 3rem 3rem 3rem;
+    padding: 1.5rem 2.1875rem 3rem 2.1875rem;
     background-color: var(--blue);
 }
 
@@ -126,7 +126,8 @@ nav {
 /* FOURTH SECTION */
 
 .section4 {
-    background-color: var(--violet) ;
+    background-color: var(--violet);
+    padding-top: 5rem;
 }
 
 .section4 .card {
@@ -238,7 +239,8 @@ footer .container .bottom-row {
         flex-direction: column; /* cards need to be in row in table view with wrap */
         padding-top: 3.125rem;
         padding-bottom: 6.25rem;
-        width: 100%;
+        max-width: 750px;
+        margin: 0 auto;
     }
 
     .section1-top, .section1-bottom {
@@ -259,13 +261,22 @@ footer .container .bottom-row {
 
     /* SECTION 2 */
 
+    .section2 .container {
+        max-width: 750px;
+    }
+
     /* SECTION 3 */
+
+    .section3 .container {
+        max-width: 750px;
+    }
 
     /* SECTION 4 */
     .section4 .container {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+        max-width: 750px;
         
     }
 
@@ -278,7 +289,7 @@ footer .container .bottom-row {
     .section5 .container {
         flex-direction: row;
         align-items: baseline;
-        max-width: 768px;
+        max-width: 750px;
         margin: 0 auto;
     }
 
@@ -289,7 +300,7 @@ footer .container .bottom-row {
     /* SECTION 6 */
 
     .section6 .container {
-        max-width: 768px;
+        max-width: 750px;
         margin: 0 auto;
     }  
 
@@ -309,7 +320,7 @@ footer .container .bottom-row {
 
     /* SECTION 1 */
     .section1 .container {
-        max-width: 992px;
+        max-width: 1140px;
         margin: 0 auto;
     }    
 
@@ -324,14 +335,14 @@ footer .container .bottom-row {
     /* SECTION 3 */
 
     .section3 .container {
-        max-width: 992px;
+        max-width: 1140px;
         margin: 0 auto;
     }
 
     /* SECTION 4 */
 
     .section4 .container {
-        max-width: 992px;
+        max-width: 1140px;
         margin: 0 auto;
     }
 
@@ -343,14 +354,14 @@ footer .container .bottom-row {
 
 
     .section5 .container {
-        max-width: 992px;
+        max-width: 1140px;
         margin: 0 auto;
     }
 
     /* SECTION 6 */
 
     .section6 .container {
-        max-width: 992px;
+        max-width: 1140px;
         margin: 0 auto;
     }  
 

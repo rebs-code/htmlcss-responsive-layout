@@ -32,6 +32,10 @@ p {
     font-size: 18px;
 }
 
+.size-20px {
+    font-size: 18px;
+}
+
 .size-24px {
     font-size: 24px;
 }
@@ -40,8 +44,16 @@ p {
     font-size: 34px;
 }
 
+.size-48px {
+    font-size: 48px;
+}
+
 .size-80px {
     font-size: 80px;
+}
+
+.standard {
+    font-weight: 400;
 }
 
 .bold {
@@ -76,6 +88,10 @@ p {
     color: var(--grey);
 }
 
+.violet {
+    color: var(--violet);
+}
+
 .bg-violet {
     background-color: var(--violet);
 }
@@ -92,6 +108,22 @@ p {
     background-color: white;
 }
 
+.bottom-40px {
+    margin-bottom: 40px;
+}
+
+.bottom-20px {
+    margin-bottom: 20px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.radius-40px {
+    border-radius: 40px;
+}
+
 button {
     border-radius: 25px;
     padding: .9rem 3.125rem .9rem 3.125rem;
@@ -105,13 +137,6 @@ img {
 
 
 /* DEBUG  */
-
-
-
-.section3 .card {
-    height: 31.25rem;
-}
-
 
 /* HEADER */
 
@@ -242,8 +267,8 @@ nav i {
 /* THIRD SECTION */
 
 .section3 .card {
-    background-color: var(--violet);
     width: 100%;
+    padding: 1.875rem 1.25rem 2.5rem 1.25rem;
 }
 
 .section3 .container {
@@ -254,6 +279,20 @@ nav i {
     align-items: center; 
     gap: 1.875rem;
     
+}
+
+.circle-container {
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px; 
+}
+
+.circle-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* FOURTH SECTION */

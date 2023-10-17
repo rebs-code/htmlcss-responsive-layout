@@ -229,11 +229,6 @@ footer .container .bottom-row {
   @media only screen and (min-width: 768px) {
 
     /* SECTION 1 */
-
-    .section1 {
-        padding-left: 1.875rem;
-        padding-right: 1.875rem;
-    }
     
     .section1 .container {
         flex-direction: column; /* cards need to be in row in table view with wrap */
@@ -318,33 +313,28 @@ footer .container .bottom-row {
   /* media query desktop */
   @media only screen and (min-width: 992px) {
 
-    /* SECTION 1 */
-    .section1 .container {
+    /* COMMON DESKTOP */
+
+    .container {
         max-width: 1140px;
         margin: 0 auto;
+    }
+
+    /* SECTION 1 */
+    .section1 .container {
+
     }    
 
     /* SECTION 2 */
     .section2 .container {
         flex-direction: row;
         align-items: end;
-        margin: 0 auto;
-        max-width: 870px;
     }
 
     /* SECTION 3 */
 
-    .section3 .container {
-        max-width: 1140px;
-        margin: 0 auto;
-    }
 
     /* SECTION 4 */
-
-    .section4 .container {
-        max-width: 1140px;
-        margin: 0 auto;
-    }
 
     .section4 .container .card {
         width: calc((100% / 3) - (2 / 3) * 1.875rem); /*width: (100% / n) - (((n -1) / n) * g); n = columns per row, g = gap */
@@ -353,17 +343,8 @@ footer .container .bottom-row {
     /* SECTION 5 */
 
 
-    .section5 .container {
-        max-width: 1140px;
-        margin: 0 auto;
-    }
-
     /* SECTION 6 */
 
-    .section6 .container {
-        max-width: 1140px;
-        margin: 0 auto;
-    }  
 
     /* FOOTER */
 

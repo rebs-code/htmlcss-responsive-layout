@@ -64,6 +64,10 @@ p {
     font-size: 80px;
 }
 
+.size-96px {
+    font-size: 96px;
+}
+
 .standard {
     font-weight: 400;
 }
@@ -76,6 +80,10 @@ p {
     font-style: italic;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 /* VARIABLES     */
 
 :root {
@@ -84,6 +92,7 @@ p {
     --light-blue: #b5ddff;
     --violet: #9792e4;
     --black: #333333;
+    --yellow: #fdc15f;
   }
 
 /* COMMON */
@@ -102,6 +111,10 @@ p {
 
 .violet {
     color: var(--violet);
+}
+
+.yellow {
+    color: var(--yellow);
 }
 
 .bg-violet {
@@ -130,6 +143,10 @@ p {
 
 .bottom-30px {
     margin-bottom: 30px;
+}
+
+.bottom-50px {
+    margin-bottom: 50px;
 }
 
 .bottom-60px {
@@ -414,8 +431,6 @@ nav i {
 }
 
 .section6 .container .card {
-    height: 31.25rem;
-    border: 1px solid white;
     width: 100%;
 }
 

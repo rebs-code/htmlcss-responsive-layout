@@ -12,8 +12,12 @@
 }
 
 p {
-    line-height: 1.5rem;
+    line-height: 2rem;
     font-size: 18px;
+}
+
+.align-left {
+    text-align: left;
 }
 
 /* VARIABLES     */
@@ -103,19 +107,32 @@ nav i {
 .section1 .card {
     background-color: var(--light-blue);
     border-radius: 1.5rem;
+    padding: 2.5rem 2.1875rem 0 2.1875rem;
     
 }
 
+.section1-top > .card:first-child {
+    padding: 2.5rem 2.1875rem 0 2.1875rem;
+}
+
+
+
 .section1 .card h2 {
     color: var(--blue);
+    margin-bottom: 2.5rem;
 }
 
 .section1 .card p {
     color: var(--grey);
+    margin-bottom: 2.5rem;
+}
+
+.section1 .card button {
+    margin-bottom: 2.5rem;
 }
 
 .section1 .card img {
-    width: 65%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -124,7 +141,6 @@ nav i {
     padding: 3.125rem 2.1875rem 5rem 2.1875rem;
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center; 
     width: 100%;
 }

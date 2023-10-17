@@ -7,6 +7,15 @@
 
 /* TYPO */
 
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    line-height: 1.5rem;
+    font-size: 18px;
+}
+
 /* VARIABLES     */
 
 :root {
@@ -39,18 +48,36 @@
     background-color: var(--light-blue);
 }
 
+.bg-blue {
+    background-color: var(--blue);
+}
+
+button {
+    border-radius: 25px;
+    padding: .9rem 3.125rem .9rem 3.125rem;
+    border: none;
+}
+
+.size-18px {
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+img {
+    display: block;
+}
+
 
 /* DEBUG  */
 
-.section1 .card, .section4 .card {
-    height: 22rem;
-}
+
 
 .section3 .card {
     height: 31.25rem;
 }
-
-
 
 
 /* HEADER */
@@ -64,14 +91,34 @@ nav {
 }
 
 nav i {
-    font-size: 2.5rem;
+    font-size: 2rem;
+}
+
+#logo {
+    min-width: 5rem;
 }
 
 /* FIRST SECTION */
 
 .section1 .card {
     background-color: var(--light-blue);
+    border-radius: 1.5rem;
+    
 }
+
+.section1 .card h2 {
+    color: var(--blue);
+}
+
+.section1 .card p {
+    color: var(--grey);
+}
+
+.section1 .card img {
+    width: 65%;
+    margin: 0 auto;
+}
+
 
 .section1 .container {
     padding: 3.125rem 2.1875rem 5rem 2.1875rem;

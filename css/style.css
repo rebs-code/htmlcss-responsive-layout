@@ -7,7 +7,7 @@
 
 /* TYPO */
 
-/* COMMON */
+/* VARIABLES     */
 
 :root {
     --blue: #0084fd;
@@ -16,6 +16,8 @@
     --violet: #9792e4;
     --black: #333333;
   }
+
+/* COMMON */
 
 .white {
     color: white;
@@ -29,6 +31,13 @@
     color: var(--grey);
 }
 
+.bg-violet {
+    background-color: var(--violet);
+}
+
+.bg-light-blue {
+    background-color: var(--light-blue);
+}
 
 
 /* DEBUG  */
@@ -50,8 +59,12 @@ nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 1.5rem 2.1875rem 3rem 2.1875rem;
+    padding: .9375rem 1.875rem 1.875rem 1.25rem;
     background-color: var(--blue);
+}
+
+nav i {
+    font-size: 2.5rem;
 }
 
 /* FIRST SECTION */
@@ -228,14 +241,19 @@ footer .container .bottom-row {
 
   @media only screen and (min-width: 768px) {
 
+    /* TABLET COMMON */
+
+    .container {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
     /* SECTION 1 */
     
     .section1 .container {
         flex-direction: column; /* cards need to be in row in table view with wrap */
         padding-top: 3.125rem;
         padding-bottom: 6.25rem;
-        max-width: 750px;
-        margin: 0 auto;
     }
 
     .section1-top, .section1-bottom {
@@ -256,22 +274,16 @@ footer .container .bottom-row {
 
     /* SECTION 2 */
 
-    .section2 .container {
-        max-width: 750px;
-    }
 
     /* SECTION 3 */
 
-    .section3 .container {
-        max-width: 750px;
-    }
 
     /* SECTION 4 */
     .section4 .container {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        max-width: 750px;
+
         
     }
 
@@ -284,8 +296,7 @@ footer .container .bottom-row {
     .section5 .container {
         flex-direction: row;
         align-items: baseline;
-        max-width: 750px;
-        margin: 0 auto;
+
     }
 
     .section5 .container .left-col {
@@ -294,16 +305,11 @@ footer .container .bottom-row {
 
     /* SECTION 6 */
 
-    .section6 .container {
-        max-width: 750px;
-        margin: 0 auto;
-    }  
 
     /* FOOTER */
 
     footer .container {
-        max-width: 29rem;  
-        margin: 0 auto;
+        max-width: 29rem; 
     }
 
 

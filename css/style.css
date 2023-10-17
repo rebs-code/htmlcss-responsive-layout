@@ -33,7 +33,7 @@ p {
 }
 
 .size-20px {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .size-24px {
@@ -122,6 +122,10 @@ p {
 
 .bottom-30px {
     margin-bottom: 30px;
+}
+
+.bottom-60px {
+    margin-bottom: 60px;
 }
 
 .circle {
@@ -322,7 +326,7 @@ nav i {
 
 
 .section4 .container {
-    padding: 4.375rem 2.1875rem 3.75rem 3.75rem;
+    padding: 4.375rem 2.1875rem 3.75rem 2.1875rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -345,14 +349,10 @@ nav i {
 }
 
 .section5 .left-col {
-    height: 34.375rem;
-    border: 1px solid black;
     width: 100%;
 }
 
 .section5 .right-col {
-    height: 25rem;
-    border: 1px solid black;
     width: 100%;
 }
 

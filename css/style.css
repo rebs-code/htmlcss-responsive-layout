@@ -627,7 +627,16 @@ footer .container .top-row {
 
   
 
-    /* SECTION 1 */   
+    /* SECTION 1 */  
+    
+    .section1 .section1-top .first-card {
+        display: flex;
+        align-items: end;
+    }
+
+    .section1 .section1-top .first-card img {
+        min-width: 250px
+    }
 
     /* SECTION 2 */
     .section2 .container {
